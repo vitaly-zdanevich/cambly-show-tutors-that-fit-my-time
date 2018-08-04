@@ -5,4 +5,5 @@ chrome.browserAction.onClicked.addListener(_ => {
 
     chrome.browserAction.setBadgeBackgroundColor({'color': 'green'});
     chrome.browserAction.setBadgeText({'text': 'ok'});
+    setTimeout(chrome.browserAction.setBadgeText, 999, {'text': ''});
 });
