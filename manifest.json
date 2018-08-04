@@ -12,6 +12,9 @@
       "32": "ico.png"
     }
   },
+  "icons": {
+    "128": "ico.png"
+  },
   "background": {
     "scripts": ["eventPage.js"],
     "persistent": false
