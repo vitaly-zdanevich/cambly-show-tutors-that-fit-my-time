@@ -6,7 +6,7 @@ if (location.host === 'www.cambly.com') {
 
         const nodeBusy = card.querySelector('small');
 
-        if (!nodeBusy) continue;
+        if (!nodeBusy || nodeBusy.innerText.startsWith('Estimated wait')) continue;
 
         if (nodeBusy.innerText.replace(/\D+/, '') < mins)
             // I tried node.remove() and faced with broken page
