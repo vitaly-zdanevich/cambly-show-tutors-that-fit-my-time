@@ -5,7 +5,7 @@
   "homepage_url": "https://github.com/vitaly-zdanevich/cambly-show-tutors-that-fit-my-time",
   "minimum_chrome_version": "60",
   "permissions": ["activeTab"],
-  "version": "2018.08.03",
+  "version": "2018.8.3",
 
   "browser_action": {
     "default_icon": {
